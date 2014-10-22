@@ -4,9 +4,7 @@ My [MST3K Space Mutiny](https://www.youtube.com/watch?v=sa42pxJyq64) themed fork
 
 This gem is a port of Perl's Data::Faker library that generates fake data.
 
-It comes in very handy for taking screenshots (taking screenshots for my
-project, [Catch the Best](http://catchthebest.com/) was the original impetus
-for the creation of this gem), having real-looking test data, and having your
+It comes in very handy for taking screenshots, having real-looking test data, and having your
 database populated with more than one or two records while you're doing
 development.
 
@@ -23,7 +21,6 @@ To use Space Mutiny names include
 Faker::Config.locale = 'spacemutiny'
 ```
 at the top of your seeds file, then proceed as normal
-
 
 ```ruby
 Faker::Name.name      #=> "Slab BulkHead"
