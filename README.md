@@ -1,5 +1,7 @@
 Faker
 =====
+My [MST3K Space Mutiny](https://www.youtube.com/watch?v=sa42pxJyq64) themed fork of the Faker gem
+
 This gem is a port of Perl's Data::Faker library that generates fake data.
 
 It comes in very handy for taking screenshots (taking screenshots for my
@@ -16,8 +18,15 @@ gem install faker
 
 ##Usage
 -----
+To use Space Mutiny names include
 ```ruby
-Faker::Name.name      #=> "Christophe Bartell"
+Faker::Config.locale = 'spacemutiny'
+```
+at the top of your seeds file, then proceed as normal
+
+
+```ruby
+Faker::Name.name      #=> "Slab BulkHead"
 
 Faker::Internet.email #=> "kirsten.greenholt@corkeryfisher.info"
 ```

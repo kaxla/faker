@@ -1,0 +1,5 @@
+spacemutiny:
+  faker:
+    name:
+      first_name: [Beat, Big, Blast, Bob, Bold, Bolt, Brick, Buck, Buff, Butch, Chunk, Crud, Crunch, Dirk, Fist, Flink, Flint, Fridge, Gristle, Hack, Hunk, Lump, Punch, Punt, Reef, Roll, Rip, Slab, Slate, Smash, Smoke, Splint, Stump, Stump, Thick, Touch, Trunk, Whip]
+      last_name: [PunchBeef, BrickofMeat, McLargeHuge, HardCheese, ThickNeck, Johnson, BigFlank, VanderHuge, HardMeat, PlankChest, DrinkLots, HardBack, DeadLift, ChunkHead, BoneMeal, ButtSteak, HardPec, RockBone, IronStag, LargeMeat, McThornBody, BlowFist, BeefBroth, RockGroin, SideIron, SpeedChunk, BlastBody, Fizzlebeef, SteakFace, BulkHead, SquatThrust, FistCrunch, SlabRock, LampJaw, ManMuscle, ChestHair, BeefKnob, Chunkman, McRunFast, RustRod, SlamChest, McRunFast, RustRod, SlamChest, SlagCheek]
